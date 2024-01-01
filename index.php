@@ -29,7 +29,8 @@
 ?>
 </ul> -->
 
-<?php
+<?php get_header();
+
 while (have_posts()) {
     the_post(); //The_post function will keep tract of which post we are currently working in
 ?>
@@ -38,4 +39,6 @@ while (have_posts()) {
     <hr>
 <?php
 }
-?>
+
+
+ get_footer() ?>
