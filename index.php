@@ -29,7 +29,10 @@
 ?>
 </ul> -->
 
-<?php get_header();
+<?php get_header() ?>
+<div>asdasd</div>
+<?php
+
 
 while (have_posts()) {
     the_post(); //The_post function will keep tract of which post we are currently working in
