@@ -15,4 +15,10 @@ add_action('wp_enqueue_scripts', 'university_files');
 // wp let us give it instructions and tell it what to do by using this add action function.
 // first argument is where we tell wordpress what type of instructions we are giving it depending on what we are trying to do
 // second argument is what we want the function is named
+
+function university_features(){
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'university_features')
 ?>
