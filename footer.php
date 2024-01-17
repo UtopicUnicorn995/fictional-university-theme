@@ -19,6 +19,11 @@
                   <li><a href="<?php echo site_url('/privacy-policy')?>">Privacy Policy</a></li>
                   <li><a href="#">Events</a></li>
                   <li><a href="#">Campuses</a></li>
+                  <!-- <?php 
+                      wp_nav_menu(array(
+                        'theme_location' => "footerMenuOne"
+                      ))
+                  ?> -->
                 </ul>
               </nav>
             </div>
@@ -30,6 +35,11 @@
                   <li><a href="#">Legal</a></li>
                   <li><a href="#">Privacy</a></li>
                   <li><a href="#">Careers</a></li>
+                  <!-- <?php 
+                      wp_nav_menu(array(
+                        'theme_location' => "footerMenuTwo"
+                      ))
+                  ?> -->
                 </ul>
               </nav>
             </div>

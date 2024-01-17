@@ -17,6 +17,11 @@ add_action('wp_enqueue_scripts', 'university_files');
 // second argument is what we want the function is named
 
 function university_features(){
+    register_nav_menu('headerMenuLocation', 'Header Menu Locatin');
+    //create a menu where you can call in the location you want
+
+    register_nav_menu('footerMenuOne', 'Footer Location one');
+    register_nav_menu('footerMenuTwo', 'Footer Location two');
     add_theme_support('title-tag');
 }
 
