@@ -39,3 +39,9 @@ archives
     archive type:
         category/archives
         author/archives
+
+
+What is a custom query?
+    allows us to load whatever we want whenever we want
+
+page is only a post type with different labels
