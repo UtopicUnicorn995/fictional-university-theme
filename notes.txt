@@ -1,0 +1,41 @@
+HEADER ORDER IS IMPORTANT!
+    meta tags first before wp header
+
+When should we echo?
+    When adding a value to the dom
+
+    the_title() -> outputing something -> needs to be echoed out
+    get_the_title() -> returning something
+
+
+official wordpress sites when inquiring something
+codex.wordpress.org
+developer.wordpress.org
+
+Basic array:
+    array('cat', 'dog', 'pig')
+
+What is an associative array?
+    array(
+        'cat' => 'meow',
+        'dog' => 'arf',
+        'pig' => 'oink,
+    )
+
+
+We have an option to use dynamic navs or hard coded one
+
+Dont forget about website SLUG
+
+For blog pagination:
+    in WP admin -> settings -> reading -> blog pages show at most
+    paginate_links()
+
+Per blog post
+    single.php
+
+
+archives
+    archive type:
+        category/archives
+        author/archives

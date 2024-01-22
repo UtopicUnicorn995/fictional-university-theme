@@ -1,0 +1,8 @@
+index.php
+functions.php
+page.php
+single.php
+footer.php
+header.php
+archive.php
+front-page.php
